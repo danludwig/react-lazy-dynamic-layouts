@@ -1,0 +1,16 @@
+.wrapper {
+    padding: 1.1em 1.1em 4em 1.1em;
+    width: 100%;
+    max-width: 750px;
+    min-width: 340px;
+    margin: 0 auto;
+    box-sizing: border-box;
+    display: grid;
+    row-gap: 1.1em;
+}
+
+@media only screen and (max-width: 340px) {
+    .wrapper {
+        align-items: revert;
+    }
+}

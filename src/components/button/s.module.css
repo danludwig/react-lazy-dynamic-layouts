@@ -1,0 +1,50 @@
+.pageButton {
+    padding: 1.4em;
+    margin: 0;
+    text-decoration: none;
+    background: rgb(47, 103, 224);
+    color: #ffffff;
+    font-size: 1.4em;
+    font-weight: lighter;
+    line-height: 1;
+    cursor: pointer;
+    transition: background 250ms ease-in-out, transform 150ms ease;
+    appearance: button;
+    -webkit-appearance: button;
+    -moz-appearance: button;
+
+    box-sizing: border-box;
+    border: solid 1px rgb(228, 228, 228);
+    border-radius: 1.3em;
+    height: 145px;
+    display: grid;
+    justify-content: start;
+    align-items: start;
+    grid-template-columns: 100%;
+    grid-template-rows: 50% 50%;
+}
+
+.pageButton:hover {
+    background: rgba(47, 103, 224, 0.8);
+}
+
+.pageButton:focus {
+    outline: 1px solid rgba(228, 228, 228, 0.8);
+}
+
+.pageButton:active {
+    transform: scale(0.99);
+}
+
+.pageButton label {
+    justify-self: start;
+    cursor: pointer;
+}
+
+.pageButton img {
+    align-self: end;
+    justify-self: end;
+    fill: white;
+    height: 36px;
+    width: auto;
+}

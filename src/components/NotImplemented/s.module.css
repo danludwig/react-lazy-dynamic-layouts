@@ -1,0 +1,12 @@
+.wrapper {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    min-height: 150px;
+    max-height: 310px;
+    text-align: center;
+}
+
+.wrapper h3 {
+    color: rgb(170, 13, 44);
+}

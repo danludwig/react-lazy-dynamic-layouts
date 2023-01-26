@@ -1,0 +1,21 @@
+body {
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+
+    background: rgb(235, 235, 235);
+    min-height: 100vh;
+    display: flex;
+    box-sizing: border-box;
+}
+
+#root {
+    display: flex;
+    width: 100%;
+    flex-flow: column;
+}
+
+.bg-blue {
+    background: rgb(47, 103, 224);
+}
