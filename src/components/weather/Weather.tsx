@@ -18,12 +18,16 @@ const Weather = ({
 
     useEffect(() => {
         if (
-            isCircuitBroken ||
             typeof latText !== 'string' ||
             !latText.length ||
             typeof lonText !== 'string' ||
             !lonText.length
         ) {
+            breakCircuit(true);
+            return;
+        }
+
+        if (isCircuitBroken) {
             return;
         }
 
